@@ -1,0 +1,17 @@
+# Audio recording & playback
+sounddevice==0.4.6
+wavio==0.0.4
+pydub==0.25.1
+playsound==1.2.2
+
+
+# HTTP requests
+requests==2.31.0
+
+# Groq SDK (for LLM)
+groq==0.5.0
+
+# Optional: For audio format handling
+ffmpeg-python==0.2.0
+python-dotenv==1.0.1
+pygame
