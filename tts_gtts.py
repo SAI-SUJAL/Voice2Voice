@@ -2,7 +2,7 @@
 # import os
 # import tempfile
 # from pydub import AudioSegment
-# # from pydub.playback import play  # This is causing the temp file issue
+# # from pydub.playback import play  
 # import time
 # import stat
 # import pygame
@@ -183,7 +183,7 @@ def speak_text_simple(text, lang="hi"):
         tts = gTTS(text=text, lang=lang)
         tts.save("speech.mp3")
 
-        playsound("speech.mp3")  # ⏳ blocks until audio finishes
+        playsound("speech.mp3")  
         os.remove("speech.mp3")
 
         print("✅ Playback complete.")
